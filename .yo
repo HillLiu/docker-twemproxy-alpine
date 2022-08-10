@@ -1,0 +1,4 @@
+repositoryName=docker-twemproxy-alpine
+repositoryOrgName=HillLiu
+dockerImageName=twemproxy-alpine
+dockerOrgName=hillliu
