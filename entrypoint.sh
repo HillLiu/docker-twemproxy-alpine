@@ -26,7 +26,7 @@ if [ ! -z "$REDIS_SERVERS" ]; then
 fi
 
 	## Launch
-	exec nutcracker -c $conf
+	exec nutcracker -v ${VERBOSE:-11} -c $conf
 }
 
 if [ "$1" = 'server' ]; then
