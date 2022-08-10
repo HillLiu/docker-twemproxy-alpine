@@ -11,6 +11,7 @@ RUN apk update && apk add bash bc \
   && rm /usr/local/bin/install-packages;
 
 FROM alpine:3.15
+
 COPY --from=builder /usr/local/sbin/nutcracker /usr/local/bin/nutcracker
 COPY entrypoint.sh /usr/local/bin/
 
