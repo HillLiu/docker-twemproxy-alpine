@@ -59,4 +59,4 @@ workflows:
       - build-and-publish:
           matrix:
             parameters:
-              docker-tag: ["0.0"]
+              docker-tag: ["master", "0.5.0"]
